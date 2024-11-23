@@ -14,7 +14,7 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "url": "http://localhost/index.html",
+            "url": "http://localhost/samson-v2/index.html",
             "pathMappings": [{
                 "url": "http://localhost/",
                 "path": "${workspaceFolder}"
