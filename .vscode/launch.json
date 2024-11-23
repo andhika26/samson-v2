@@ -6,11 +6,7 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "${workspaceFolder}/index.html",
-            "env": {
-                "NODE_ENV": "development"
-            },
-            "preLaunchTask": "npm: start" // Jalankan npm start sebelum debugging
+            "file": "localhost/${workspaceFolder}/index.html",
         },
         // ... konfigurasi lainnya
     ]
