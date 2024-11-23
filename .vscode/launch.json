@@ -6,8 +6,19 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "localhost/${workspaceFolder}/index.html",
+            "file": "${workspaceFolder}/index.html"
         },
-        // ... konfigurasi lainnya
+
+        {
+            "name": "Launch localhost",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost/index.html",
+            "pathMappings": [{
+                "url": "http://localhost",
+                "path": "${workspaceFolder}"
+            }]
+        }
     ]
 }
