@@ -6,7 +6,7 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "${workspaceFolder}/samson-v2/index.html"
+            "file": "${workspaceFolder}/index.html"
         },
 
         {
@@ -14,9 +14,9 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "url": "http://localhost/samson-v2/index.html",
+            "url": "http://localhost/index.html",
             "pathMappings": [{
-                "url": "http://localhost/samson-v2/",
+                "url": "http://localhost/",
                 "path": "${workspaceFolder}"
             }]
         },
